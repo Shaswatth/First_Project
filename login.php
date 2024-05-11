@@ -1,0 +1,96 @@
+<?php 
+session_start();
+
+error_reporting(0);
+	$message = $_SESSION['email_alert'];
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url("../Day3/finalimage/wallpaperflare.com_wallpaper.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .mart{
+margin-top: 100px;
+        }
+        .radius{
+            border-radius: 50%;
+        }
+        .form{display:block;width:100%;height:calc(1.5em + .75rem + 2px);padding:.375rem .75rem;
+            background-color: rgba(255, 186, 140,0.1);
+            font-size:1rem;font-weight:400;line-height:1.5;color:#495057;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+            .btnn{ width:500px;height:55px;display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+    ul .l{
+    padding-left: 30px;
+    }
+    ul .r{
+        padding-right: 20px;
+    }
+    .other li{
+        padding-right: 10px;
+    }
+    .logo:hover{  
+    transform: scale(1.05);
+    }
+.logo{
+    text-indent: -999999px;
+    background-image: url("../Day3/finalimage/logo1.png");
+    width: 116px;
+    height: 108px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(14, 13, 13, 0.911);
+    background-repeat: no-repeat;
+}
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Sign IN</title>
+</head>
+<body class="container">
+
+
+   <center> <div class="col-md-4 col-sm-4 col-lg-4 col mart">
+            
+        <div class="row p-5 ml-5"><h2 class="logo"style="color: white;">LOGO</h2></div>
+        <div class="row justify-content-center mb-4" style="font-size: 30px; color:rgb(255, 186, 140)">Have an account?</div>
+        <form action="name.php">
+        <div class="row p-3" ><input type="text" class="form-control p-4 rounded-pill " style="color:black" id="" placeholder="Username" name="username" ></div>
+        <div class="row p-3"><input type="password" class="form-control p-4 rounded-pill" id="" placeholder="password" name="password" required></div>
+        <div class="row p-3"><button type="submit" class="btnn  rounded-pill "  style="color: black; background-color:rgb(255, 186, 140); font-weight: 500;">SIGN IN</button></div>
+        </form>
+        <div class="row">
+            <ul class="remember" style="display:flex; list-style-type:none;">
+           <li class="r"> <div class="form-check">
+            <input type="checkbox" class="form-check-input" style="accent-color: rgb(255, 186, 140); border:none;" id="check2" name="option2" value="something">
+            <label class="form-check-label" style=" color:rgb(255, 186, 140); font-weight: 1000;" for="check2">Remember me</label>
+          </div></li>
+        <li class="l" style="color:beige; font-weight: 1000;">Forget Password ?</li>
+        </ul>
+
+        </div>
+        <div class="row justify-content-center" style="font-weight: 500; color:beige">
+            — Or Sign In With —
+        </div>
+<div class="row" >
+    <ul class="other" style="display:flex; list-style-type:none;">
+    <li ><div class="row p-3"><button type="submit" class="btn  rounded p-3"  style="color: black; background-color:beige; font-weight: 500; width: 150px;">Facebook</button></div></li>
+    <li> <div class="row p-3"><button type="submit" class="btn rounded p-3"  style="color: black; background-color:beige; font-weight: 500; width:150px">Twitter</button></div></li>
+</div>
+</ul>  
+<div class="row justify-content-center mb-4" style="font-size: 20px; color:blanchedalmond">Don't have an Account?<a href="singup.php" style="color:rgb(255, 186, 140);">.    Sign up</a></div>
+        </center>   
+        <?php unset($_SESSION['email_alert']); ?>  
+        
+    
+</div>
+</body>
+</html>

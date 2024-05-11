@@ -1,0 +1,106 @@
+
+body{
+     background-image: url("firespark1.gif");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+ } 
+ a {
+    text-decoration: none;
+    color: beige;
+ }
+ ul{
+    list-style-type: none;
+    
+ }
+ img{
+    border-radius: 40px; 
+    box-shadow: 10px 10px 15px rgba(104, 104, 104, 0.534);
+}
+nav{
+    padding: 20px 0;
+}
+/*rating*/
+.rate{
+    display: flex;
+    
+}
+.rate li{
+    padding: 0 10px;
+    border-right: 2px groove rgba(197, 197, 197, 0.705);
+    color: beige;
+}
+/*rating*/
+ .h{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: beige;
+ }
+ .pic{
+    display: flex;
+    padding: 100px 70px;
+ }
+ #name{
+    flex:3;
+ }
+ #logo{
+flex:1;
+
+ }
+ /*Button */
+ button{
+    width: 5cm;
+    height: 1.1cm;
+    border-radius: 10px;
+    border:none;
+    color: azure;
+    background-color: #04AA6D;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.418);
+ }
+ .button{
+    display:flex;
+ }
+ .button li {
+    padding: 0 15px;
+
+ }
+ .button li button{
+   border-radius: 10px;
+
+}
+ .button li a{
+   text-decoration: none;
+   color: azure;
+}
+ .button li a:hover{
+background-color:  #04aa6d0c;
+
+border-radius: 5px;
+border:none;
+ }
+ /*Button*/
+ 
+ .screen{
+    display:flex;
+
+ }
+.screen img{
+    flex:1;
+    width:550px;
+    height: 350px;
+   padding-left: 20px;
+}
+.disclimb{
+    background-color: rgba(126, 114, 114, 0.2);
+    display:flex;
+    border-radius: 20px;
+    
+}
+/*.disclimb li{
+    flex:1;
+    padding:30px;
+}
+.disclimb li p{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}*/

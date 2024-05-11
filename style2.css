@@ -1,0 +1,42 @@
+.dropdown button{
+    
+    color:white;
+    background-color:rgba(0, 0, 71, 0);
+    
+    position: absolute;
+    transition: 0.4s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+    font-size: small;
+    top: 18px;
+    
+}
+.dropdown a{
+    display: block;
+    padding: 25px 30px;
+   
+    
+    text-decoration: none;
+    
+}
+.dropdown .content{
+    position: absolute;
+    min-width:100px;
+    display: none;
+
+}
+.dropdown:hover .content{
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 35px;
+    
+}
+button{
+    position:absolute;
+    right: 10px;
+    top: 15px;
+    font-family: "Audiowide", sans-serif;
+    border:none;
+
+}

@@ -1,0 +1,370 @@
+*{
+    padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+.container-text1{
+    position: absolute;
+    right:400px;
+    top:60px;
+}
+.container-text2{
+    position: absolute;
+    right:190px;
+    top:60px;
+}
+.container-text3{
+    position: absolute;
+    right:300px;
+    top:60px;
+}
+.container-text4{
+    position: absolute;
+    right: 130px;
+    top:60px;
+}
+.container-text5{
+    position: absolute;
+    right:10px;
+    top:60px;
+}
+.container-head{
+    position: absolute;
+    left:10px;
+    top:300px;
+    color:rgb(240, 9, 86);
+    
+    text-shadow: 2px 2px 8px rgb(221, 99, 139);
+    font-size: 45px;
+    font-family: "Audiowide", sans-serif;
+    display: flex;
+    flex-direction: column;  
+}
+
+.glow :hover{
+font-size:50px;
+transition: 1s;
+
+
+}
+.container-head li{
+    padding:20px 50px;
+}
+.tank1{
+    width: 1400px;
+    height:185px;
+
+    position:absolute;
+    left: 50px;
+    right: 10px;
+    top:900px;
+    bottom: 100px;
+    border: 10px;
+}
+.des1{
+    position:absolute;
+    left:300px;
+    top:10px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.para1{
+    position:absolute;
+    left:300px;
+    top:60px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.download1{
+    position:absolute;
+    left:300px;
+    top:150px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download1:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.tank1:hover{
+    font-size: larger;
+    transition: 0.2s;
+}
+
+
+.tank2{
+    width: 1400px;
+    height:185px;
+   
+    position:absolute;
+    left: 50px;
+    right: 10px;
+    top:1200px;
+    bottom: 100px;
+    border: 10px;
+}
+.des2{
+    position:absolute;
+    left:300px;
+    color: white;
+    top:10px;
+    font-family: "Audiowide", sans-serif;
+}
+.para2{
+    position:absolute;
+    left:300px;
+    color: white;
+    top:60px;
+    font-family: "Audiowide", sans-serif;
+}
+.download2{
+    position:absolute;
+    left:300px;
+    top:150px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download2:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.tank2:hover{
+    font-size: larger;
+    transition: 0.2s;
+}
+
+
+.tank3{
+    width: 1400px;
+    height:185px;
+    position:absolute;
+    left: 50px;
+    right: 10px;
+    top:1500px;
+    bottom: 100px;
+    border: 10px;
+}
+.des3{
+    position:absolute;
+    left:300px;
+    top:10px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.para3{
+    position:absolute;
+    left:300px;
+    top:60px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.download3{
+    position:absolute;
+    left:300px;
+    top:150px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download3:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.tank3:hover{
+    font-size: larger;
+    transition: 0.2s;
+}
+
+.tank4{
+    width: 1400px;
+    height:185px;
+    
+
+    position:absolute;
+    left: 50px;
+    right: 10px;
+    top:1800px;
+    bottom: 100px;
+    border: 10px;
+}
+.des4{
+    position:absolute;
+    left:300px;
+    top:10px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.para4{
+    position:absolute;
+    left:300px;
+    top:60px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.download4{
+    position:absolute;
+    left:300px;
+    top:150px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download4:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0s;
+}
+.tank4:hover{
+    font-size: larger;
+    transition: 0.2s;
+}
+
+.tank5{
+    width: 1400px;
+    height:185px;
+    position:absolute;
+    left: 50px;
+    right: 10px;
+    top:2100px;
+    bottom: 100px;
+    border: 10px;
+}
+.des5{
+    position:absolute;
+    left:300px;
+    top:10px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.para5{
+    position:absolute;
+    left:300px;
+    top:60px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+.download5{
+    position:absolute;
+    left:300px;
+    top:150px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download5:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.tank5:hover{
+    font-size: larger;
+    transition: 0.2s;
+}
+.header{
+    position:absolute;
+    top:0px;
+   background-color: rgba(15, 15, 61,0);
+    width: 1900px;
+    height: 100px;
+    color: beige;
+}
+.image{
+    opacity: 0.6;
+}
+
+.boot1{
+    position: absolute;
+    top:150px;
+    left:20px;
+    height: 500px;
+    width: 700px;
+    background-color:rgba(122, 120, 120,0.5);
+    border-radius: 20px;
+}
+.download6{
+    position:absolute;
+    left:550px;
+    top:450px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download6:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.textm{
+    position: absolute;
+    top:425px;
+    left:50px;
+    
+    letter-spacing: 3px;
+    font-family: "Audiowide", sans-serif;
+
+
+}
+.boot1{
+    position: absolute;
+    top:150px;
+    left:20px;
+    height: 500px;
+    width: 700px;
+    background-color:rgba(122, 120, 120,0.5);
+    border-radius: 20px;
+}
+.download6{
+    position:absolute;
+    left:550px;
+    top:450px;
+    font-family: "Audiowide", sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.download6:hover{
+    background-color: aqua;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.textm{
+    position: absolute;
+    top:425px;
+    left:50px;
+    
+    letter-spacing: 3px;
+    font-family: "Audiowide", sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
